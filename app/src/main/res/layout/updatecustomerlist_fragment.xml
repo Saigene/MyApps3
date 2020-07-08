@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    android:id="@+id/updatecustomerlistlayout">
+
+
+    <TextView
+        android:id="@+id/textUpdateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Algene Antonio Peralta"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textUpdateCpno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0174738341"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:id="@+id/textUpdateShift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shift 1"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/textUpdateOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xiaomi Redmi Note 8"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:id="@+id/textUpdateAddtional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tglass"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/textUpdatedownpayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Downpayment:"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+    android:id="@+id/textUpdateMontstopay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="4 Months to pay"
+    android:textSize="15dp"
+    android:textColor="@color/black"
+    android:layout_marginLeft="270dp"
+    android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/textUpdateTotalprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3020.00"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="120dp"
+        android:maxLength="6"/>
+    <TextView
+        android:id="@+id/textUpdateTotalpricewithint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3020.00"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="140dp"
+        android:maxLength="6"/>
+
+    <TextView
+        android:id="@+id/textUpdateTotalpricewoless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3020.00"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="160dp"
+        android:maxLength="6"/>
+
+    <TextView
+        android:id="@+id/textUpdateN_Totalprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Pay:"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/textUpdateN_Totalpricewithint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Pay w/ Interest:"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="140dp"/>
+
+    <TextView
+        android:id="@+id/textUpdateN_Totalpricewoless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price w/o less:"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="160dp"/>
+
+    <TextView
+        android:id="@+id/textUpdateOrderPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3000.00"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:id="@+id/textUpdateAdditionalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20.00"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/textUpdateDownpayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20.00"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="100dp"/>
+
+
+    <TextView
+        android:id="@+id/textUpdateDateMid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:text="Mid1Date"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textUpdateMid1AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200.50"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:maxLength="6"/>
+
+    <EditText
+        android:id="@+id/edittextUpdateMid1AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/yellow"
+        android:enabled="false"
+        android:hint="insert Pay"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textUpdateDateEnd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="230dp"
+        android:text="End1Date"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textUpdateEnd1AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200.50"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="230dp"
+        android:maxLength="6"/>
+
+    <EditText
+        android:id="@+id/edittextUpdateEnd1AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="230dp"
+        android:background="@color/yellow"
+        android:enabled="false"
+        android:hint="insert Pay"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textUpdateDateMid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="280dp"
+        android:text="Mid2Date"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textUpdateMid2AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200.50"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="280dp"
+        android:maxLength="6"
+        android:ellipsize="end"/>
+
+    <EditText
+        android:id="@+id/edittextUpdateMid2AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="280dp"
+        android:background="@color/yellow"
+        android:enabled="false"
+        android:hint="insert Pay"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textUpdateDateEnd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="310dp"
+        android:text="End2Date"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textUpdateEnd2AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200.50"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="310dp"
+        android:maxLength="6"/>
+
+    <EditText
+        android:id="@+id/edittextUpdateEnd2AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="310dp"
+        android:background="@color/yellow"
+        android:enabled="false"
+        android:hint="insert Pay"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textUpdateDateMid3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="360dp"
+        android:text="Mid3Date"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textUpdateMid3AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200.50"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="360dp"
+        android:maxLength="6"/>
+
+    <EditText
+        android:id="@+id/edittextUpdateMid3AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="360dp"
+        android:background="@color/yellow"
+        android:enabled="false"
+        android:hint="insert Pay"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textUpdateDateEnd3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="390dp"
+        android:text="End3Date"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textUpdateEnd3AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200.50"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="390dp"
+        android:maxLength="6"/>
+
+    <EditText
+        android:id="@+id/edittextUpdateEnd3AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="390dp"
+        android:background="@color/yellow"
+        android:enabled="false"
+        android:hint="insert Pay"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textUpdateDateMid4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="440dp"
+        android:text="Mid4Date"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textUpdateMid4AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200.50"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="440dp"
+        android:maxLength="6"/>
+
+    <EditText
+        android:id="@+id/edittextUpdateMid4AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="440dp"
+        android:background="@color/yellow"
+        android:enabled="false"
+        android:hint="insert Pay"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textUpdateDateEnd4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="470dp"
+        android:text="End4Date"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textUpdateEnd4AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200.50"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="470dp"
+        android:maxLength="6"/>
+
+    <EditText
+        android:id="@+id/edittextUpdateEnd4AmountPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="470dp"
+        android:background="@color/yellow"
+        android:enabled="false"
+        android:hint="insert Pay"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+
+    <TextView
+        android:id="@+id/textUpdateTotalBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="510dp"
+        android:text="200.50"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:maxLength="6"/>
+
+    <TextView
+        android:id="@+id/textUpdateN_TotalBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="515dp"
+        android:text="Balance w/ interest:"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textUpdateSukli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="600dp"
+        android:text="0.00"
+        android:textColor="@color/green"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:maxLength="6"/>
+
+    <TextView
+        android:id="@+id/textUpdateKulang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="179dp"
+        android:layout_marginTop="600dp"
+        android:text="0.00"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:maxLength="6"/>
+
+    <TextView
+        android:id="@+id/textmid1detailpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="650dp"
+        android:text="mid1d"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textend1detailpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="680dp"
+        android:text="end1d"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textmid2detailpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="650dp"
+        android:text="mid2d"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textend2detailpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="680dp"
+        android:text="end2d"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+    android:id="@+id/textmid3detailpay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="650dp"
+    android:text="mid3d"
+    android:textColor="@color/red"
+    android:textSize="20dp"
+    android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textend3detailpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="680dp"
+        android:text="end3d"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textmid4detailpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="650dp"
+        android:text="mid4d"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textend4detailpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="680dp"
+        android:text="end4d"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textupdatedetailpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="650dp"
+        android:text="updated"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/texteditdetailpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="680dp"
+        android:text="edited"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textUpdateN_Sukli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="605dp"
+        android:text="Advance:"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textUpdateN_Kulang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="605dp"
+        android:text="Kulang:"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/buttonupdated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="275dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:background="@color/red1"
+        android:text="Update"
+        android:textColor="#fff" />
+    <Button
+        android:id="@+id/btneditconfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="275dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:background="@color/red1"
+        android:text="Confirm"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/buttonedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:background="@color/red1"
+        android:text="Edit"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/buttondetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginRight="276dp"
+        android:background="@color/red1"
+        android:text="Detail"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btneditcancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginRight="276dp"
+        android:background="@color/red1"
+        android:text="Cancel"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/buttonmid1pay"
+        android:layout_width="69dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="150dp"
+        android:background="@color/red1"
+        android:text="Update"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/buttonend1pay"
+        android:layout_width="69dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="130dp"
+        android:background="@color/red1"
+        android:text="Update"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/buttonmid2pay"
+        android:layout_width="69dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="130dp"
+        android:background="@color/red1"
+        android:text="Update"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/buttonend2pay"
+        android:layout_width="69dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="130dp"
+        android:background="@color/red1"
+        android:text="Update"
+        android:textColor="#fff"/>
+
+    <Button
+    android:id="@+id/buttonmid3pay"
+    android:layout_width="69dp"
+    android:layout_height="28dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="320dp"
+    android:layout_marginLeft="180dp"
+    android:layout_marginTop="360dp"
+    android:layout_marginRight="130dp"
+    android:background="@color/red1"
+    android:text="Update"
+    android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/buttonend3pay"
+        android:layout_width="69dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginRight="130dp"
+        android:background="@color/red1"
+        android:text="Update"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/buttonmid4pay"
+        android:layout_width="69dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="130dp"
+        android:background="@color/red1"
+        android:text="Update"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/buttonend4pay"
+        android:layout_width="69dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="130dp"
+        android:background="@color/red1"
+        android:text="Update"
+        android:textColor="#fff"/>
+
+</RelativeLayout>

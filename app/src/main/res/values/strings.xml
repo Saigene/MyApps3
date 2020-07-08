@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SaiApps</string>
+
+    <array name="spinner_shift">
+        <item>Shift 1</item>
+        <item>Shift 2</item>
+        <item>Shift 3</item>
+        <item>Shift PA</item>
+        <item>Shift PB</item>
+        <item>Normal</item>
+    </array>
+
+    <array name="spinner_monthstopay">
+        <item>1 Month</item>
+        <item>2 Months</item>
+        <item>3 Months</item>
+        <item>4 Months</item>
+    </array>
+</resources>

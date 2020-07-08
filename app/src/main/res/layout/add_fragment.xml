@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/addlayout">
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/red1"
+        android:text="Add Customer"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textViewBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:text="Book Date:" />
+
+    <EditText
+        android:id="@+id/editBookDate"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="90dp"
+
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Insert Date  "
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/textViewCpNo."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:text="CP No.:" />
+
+    <TextView
+        android:id="@+id/textViewShift."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:text="Shift:" />
+
+    <TextView
+        android:id="@+id/textViewOrder."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:text="Order:" />
+
+    <TextView
+        android:id="@+id/textViewOrderPrice."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:text="Order Price:"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+    android:id="@+id/textViewMonthsPay."
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:textColor="@color/black"
+    android:layout_marginTop="400dp"
+    android:layout_marginLeft="20dp"
+    android:text="Months to Pay:" />
+
+    <TextView
+        android:id="@+id/textViewAddional."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="20dp"
+        android:text="Additional:" />
+
+    <TextView
+        android:id="@+id/textViewAddionalPrice."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"
+        android:text="Additional Price:" />
+
+    <TextView
+        android:id="@+id/textViewDownpayment."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="20dp"
+        android:text="Downpayment:" />
+
+    <TextView
+        android:id="@+id/textViewColor."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="20dp"
+        android:text="Type of Color:" />
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="95dp"
+        android:hint="Insert Name" />
+
+    <EditText
+        android:id="@+id/editTextCpno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="95dp"
+        android:hint="Insert Cp No."/>
+
+    <Spinner
+        android:id="@+id/spinnerShift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="100dp"
+        android:entries="@array/spinner_shift"
+        android:hint="Insert shift"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="95dp"
+        android:hint="Insert Order Name"/>
+
+    <EditText
+        android:id="@+id/editTextOrderPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="numberDecimal"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="339dp"
+        android:layout_marginLeft="135dp"
+        android:hint="Insert Order Price"/>
+
+    <Spinner
+        android:id="@+id/spinnerMonthstoPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginRight="80dp"
+        android:entries="@array/spinner_monthstopay"
+        android:hint="Insert shift"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextAdditonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="130dp"
+        android:hint="Insert Additional"/>
+
+    <EditText
+        android:id="@+id/editTextAdditonalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="180dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Insert Additional Price"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextDownpayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="160dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Insert Downpayment"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="160dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Type Color"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btndate"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="95dp"
+        android:text="Date"
+        android:background="@color/red1"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/textuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="700dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background1">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="605dp"
+        android:textSize="20dp"
+        android:id="@+id/orderlistcheckall"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="580dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/myrecycleview"
+            android:background="@color/background1"/>
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="595dp"
+        android:layout_marginLeft="250dp"
+        app:cardBackgroundColor="@color/red1"
+        android:id="@+id/cardviewplaceorder">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Order"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="595dp"
+        android:layout_marginLeft="100dp"
+        app:cardBackgroundColor="@color/red1"
+        android:id="@+id/cardviewrelease">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Release"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

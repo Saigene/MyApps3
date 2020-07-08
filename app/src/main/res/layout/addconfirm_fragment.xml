@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/addconfirmlayout">
+
+    <TextView
+        android:id="@+id/C_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/confirmName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="120dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/C_Cpno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="50dp"
+        android:text="CP No:" />
+
+    <TextView
+        android:id="@+id/confirmCpno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="120dp"
+        android:text="CP No" />
+
+    <TextView
+        android:id="@+id/C_Shift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="50dp"
+        android:text="Shift:" />
+
+    <TextView
+        android:id="@+id/confirmShift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="120dp"
+        android:text="Shift" />
+
+    <TextView
+        android:id="@+id/C_Order."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="50dp"
+        android:text="Order:" />
+
+    <TextView
+        android:id="@+id/confirmOrder."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="120dp"
+        android:text="Order" />
+
+    <TextView
+        android:id="@+id/C_OrderPrice."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"
+        android:text="Order Price:" />
+
+    <TextView
+        android:id="@+id/C_Additonal."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="50dp"
+        android:text="Additional:" />
+
+    <TextView
+        android:id="@+id/C_AdditonalPrice."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="50dp"
+        android:text="Additional Price:" />
+
+    <TextView
+        android:id="@+id/C_Downpayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="50dp"
+        android:text="Downpayment:" />
+    <TextView
+        android:id="@+id/C_Color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="50dp"
+        android:text="Type of Color:" />
+
+    <TextView
+        android:id="@+id/C_Afterless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="50dp"
+        android:text="Total Pay:" />
+
+    <TextView
+        android:id="@+id/C_totalprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="250dp"
+        android:text="Total Price:" />
+
+    <TextView
+        android:id="@+id/confirmAdditonalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="210dp"
+        android:text="Additional Price" />
+
+    <TextView
+        android:id="@+id/confirmDownpayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="190dp"
+        android:text="Downpayment" />
+
+    <TextView
+        android:id="@+id/confirmColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="190dp"
+        android:text="Color" />
+
+    <TextView
+        android:id="@+id/confirmAdditonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="160dp"
+        android:text="Additional" />
+
+    <TextView
+        android:id="@+id/confirmTotalPricewoutint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="250dp"
+        android:text="500.00" />
+
+    <TextView
+        android:id="@+id/confirmTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="540dp"
+        android:text="500.00"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/confirmOrderPrice."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="170dp"
+        android:text="Order Price" />
+
+    <TextView
+        android:id="@+id/C_MonthsPay."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="50dp"
+        android:text="Months to Pay:" />
+
+    <TextView
+        android:id="@+id/confirmMonthsPay."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="200dp"
+        android:text="Months to Pay" />
+
+    <TextView
+        android:id="@+id/confirmDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="200dp"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/C_confirmBookDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:text="Book Date:" />
+
+
+    <Button
+        android:id="@+id/confirmbtn"
+    android:layout_width="149dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="610dp"
+    android:layout_marginEnd="38dp"
+    android:layout_marginRight="38dp"
+    android:background="@color/red2"
+    android:text="Confirm"
+    android:textColor="#fff"
+    android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/cancelbtn"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="610dp"
+        android:layout_marginLeft="38dp"
+        android:background="@color/red2"
+        android:text="Cancel"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
